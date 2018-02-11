@@ -1,0 +1,13 @@
+.card-content {
+  height: 130px;
+}
+.marked {
+  color: red;
+  font-weight: 600;
+}
+.hovered {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  transition: 0.5s ease all;
+  z-index: 100;
+}
